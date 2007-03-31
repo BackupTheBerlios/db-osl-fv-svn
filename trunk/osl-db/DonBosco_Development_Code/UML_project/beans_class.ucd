@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="beans_class" size="802,393" id="UML_project" metadata="uml2-1.0" initialized="true" scrolledX="330" scrolledY="244" tag="1000" key="32303037303132322044425F4F465F323030372F456D616E75656C65">
+  <children xsi:type="editmodel:PackageEditModel" name="beans" location="10,0" size="1113,615" id="beans">
+    <children xsi:type="editmodel:ClassEditModel" name="Iscritto" location="87,71" size="1098,337" id="beans/Iscritto" runTimeClassModel="Iscritto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;CIIII),nome,ntel1,cognome,via,tessera,note,id,idClasse,ntel3,idSquadra,nciv,Iscritto(),ntel2,citta,sesso">
+      <children xsi:type="editmodel:CompartmentEditModel" size="97,252">
+        <children xsi:type="editmodel:AttributeEditModel" name="citta" id="beans/Iscritto#citta"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="cognome" id="beans/Iscritto#cognome"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="id" id="beans/Iscritto#id"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="idClasse" id="beans/Iscritto#idClasse"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="idSquadra" id="beans/Iscritto#idSquadra"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="nciv" id="beans/Iscritto#nciv"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="nome" id="beans/Iscritto#nome"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="note" id="beans/Iscritto#note"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="ntel1" id="beans/Iscritto#ntel1"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="ntel2" id="beans/Iscritto#ntel2"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="ntel3" id="beans/Iscritto#ntel3"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="sesso" id="beans/Iscritto#sesso"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="tessera" id="beans/Iscritto#tessera"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="via" id="beans/Iscritto#via"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="1075,36">
+        <children xsi:type="editmodel:MethodEditModel" name="Iscritto" id="beans/Iscritto#Iscritto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;CIIII)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="Iscritto" id="beans/Iscritto#Iscritto()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true" showAssociationMember="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="Oracard" location="7,413" size="617,193" id="beans/Oracard" runTimeClassModel="tetto_spesa,Oracard(),num_carta,credito_attuale,ultimo_uso,Oracard(ILjava.lang.String;FFFLjava.sql.Date;),id,spesa">
+      <children xsi:type="editmodel:CompartmentEditModel" size="117,108">
+        <children xsi:type="editmodel:AttributeEditModel" name="credito_attuale" id="beans/Oracard#credito_attuale"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="id" id="beans/Oracard#id"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="num_carta" id="beans/Oracard#num_carta"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="spesa" id="beans/Oracard#spesa"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="tetto_spesa" id="beans/Oracard#tetto_spesa"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="ultimo_uso" id="beans/Oracard#ultimo_uso"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="594,36">
+        <children xsi:type="editmodel:MethodEditModel" name="Oracard" id="beans/Oracard#Oracard()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="Oracard" id="beans/Oracard#Oracard(ILjava.lang.String;FFFLjava.sql.Date;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true" showAssociationMember="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="Gite" location="651,416" size="189,129" id="beans/Gite" runTimeClassModel="accompagnato,nome_accompagnatore,pagato,id_gita,id_iscritto">
+      <children xsi:type="editmodel:CompartmentEditModel" size="166,90">
+        <children xsi:type="editmodel:AttributeEditModel" name="accompagnato" id="beans/Gite#accompagnato"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="id_gita" id="beans/Gite#id_gita"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="id_iscritto" id="beans/Gite#id_iscritto"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="nome_accompagnatore" id="beans/Gite#nome_accompagnatore"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="pagato" id="beans/Gite#pagato"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true" showAssociationMember="true"/>
+    </children>
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference" showStereotype="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" showScope="InPackage" properties="wireOptions=7" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAttributeProperty="true" showAssociationMember="true"/>
+</editmodel:ClassDiagramEditModel>
