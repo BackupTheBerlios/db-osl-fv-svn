@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="beans_class" size="802,393" id="UML_project" metadata="uml2-1.0" initialized="true" scrolledX="330" scrolledY="244" tag="1000" key="32303037303132322044425F4F465F323030372F456D616E75656C65">
-  <children xsi:type="editmodel:PackageEditModel" name="beans" location="10,0" size="1113,615" id="beans">
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="beans_class" size="802,393" id="UML_project" metadata="uml2-1.0" initialized="true" scrolledY="47" tag="1000" key="32303037303132322044425F4F465F323030372F456D616E75656C65">
+  <children xsi:type="editmodel:PackageEditModel" name="beans" location="10,0" size="1123,615" id="beans">
     <children xsi:type="editmodel:ClassEditModel" name="Iscritto" location="87,71" size="1098,337" id="beans/Iscritto" runTimeClassModel="Iscritto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;CIIII),nome,ntel1,cognome,via,tessera,note,id,idClasse,ntel3,idSquadra,nciv,Iscritto(),ntel2,citta,sesso">
       <children xsi:type="editmodel:CompartmentEditModel" size="97,252">
         <children xsi:type="editmodel:AttributeEditModel" name="citta" id="beans/Iscritto#citta"/>
@@ -41,7 +41,7 @@
       <children xsi:type="editmodel:CompartmentEditModel"/>
       <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true" showAssociationMember="true"/>
     </children>
-    <children xsi:type="editmodel:ClassEditModel" name="Gite" location="651,416" size="189,129" id="beans/Gite" runTimeClassModel="accompagnato,nome_accompagnatore,pagato,id_gita,id_iscritto">
+    <children xsi:type="editmodel:ClassEditModel" name="Gite" location="651,416" size="189,129" id="beans/Gite" runTimeClassModel="accompagnato,nome_accompagnatore,pagato,id_iscritto,id_gita">
       <children xsi:type="editmodel:CompartmentEditModel" size="166,90">
         <children xsi:type="editmodel:AttributeEditModel" name="accompagnato" id="beans/Gite#accompagnato"/>
         <children xsi:type="editmodel:AttributeEditModel" name="id_gita" id="beans/Gite#id_gita"/>
